@@ -9,8 +9,8 @@ import { BufferGeometryUtils } from "three/examples/jsm/utils/BufferGeometryUtil
 const loader = new GLTFLoader();
 
 // locations
-const texturesFolder = "img/textures/";
-const modelsFolder = "img/models/";
+const texturesFolder = "assets/textures/";
+const modelsFolder = "assets/models/";
 
 // environment
 const canvas = document.querySelector("#c");
