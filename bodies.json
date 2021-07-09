@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Mercury",
+    "radius": 2,
+    "parent": 0,
+    "distanceFromParent": "100,0,0",
+    "model": ""
+  },
+  {
+    "id": 2,
+    "name": "Venus",
+    "radius": 2,
+    "parent": 0,
+    "distanceFromParent": "200,0,30",
+    "model": ""
+  },
+  {
+    "id": 3,
+    "name": "Earth",
+    "radius": 2,
+    "parent": 0,
+    "distanceFromParent": "300,0,-40",
+    "model": ""
+  },
+  {
+    "id": 3.2,
+    "name": "Moon",
+    "radius": 0.5,
+    "parent": 3,
+    "distanceFromParent": "0,0,-10",
+    "model": ""
+  },
+  {
+    "id": 4,
+    "name": "Mars",
+    "radius": 2,
+    "parent": 0,
+    "distanceFromParent": "400,0,0",
+    "model": ""
+  },
+  {
+    "id": 5,
+    "name": "Ceres",
+    "radius": 1,
+    "parent": 0,
+    "distanceFromParent": "500,0,100",
+    "model": ""
+  },
+  {
+    "id": 5.2,
+    "name": "Tycho",
+    "radius": 1,
+    "parent": 5,
+    "distanceFromParent": "0,0,-30",
+    "model": "tycho.glb"
+  },
+  {
+    "id": 5.3,
+    "name": "Eros",
+    "radius": 1,
+    "parent": 5,
+    "distanceFromParent": "-10,0,-50",
+    "model": "eros.glb"
+  },
+  {
+    "id": 6,
+    "name": "Jupiter",
+    "radius": 3,
+    "parent": 0,
+    "distanceFromParent": "600,0,0",
+    "model": ""
+  }
+ ]
